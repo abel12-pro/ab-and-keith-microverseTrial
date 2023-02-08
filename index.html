@@ -1,26 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+<!Doctype html>
+<html>
+<header>
+<link rel="stylesheet" href="styles.css">
+</header>
+<body>
+<h1 id="title">Survey Form</h1>
+<p id="description"> This is form that done for Microverse trial collaborative Project
+</p>
+<form id="survey-form" 
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-<h1>Hello World</h1>
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-    <script  src="js/index.js"></script>
-  </body>
+name="survey-form" >
+<div id="from-id">
+  <label for="name" id="name-label">Name:</label>
+  <input type="text" id="name" name="name" value="enter you full name" placeholder="letter" required>
+  <br>
+  <label for="email" id="email-label">Email:</label>
+  <input type="email" id="email" name="email" value="enter your email" placeholder="email"required>
+  <br>
+  <label for="number" id="number-label">Number:</label>
+  <input type="number" id="number" name="number" min="7" max="23" value="7" placeholder="7-23">
+  <div>
+    <label for="dropdonn">Select Your position here </label> 
+    <br>
+<select id="dropdown">
+  <option disabled selected value>select option</option>
+  <option value="name">Programmer</option>
+  <option value="snam">enginer</option>
+  <option value="snam">doctor</option>
+</select>
+<div class="r-buttons">
+  </form>
+</body>
 </html>
